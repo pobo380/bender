@@ -2,7 +2,7 @@ MAKEFLAGS += --warn-undefined-variables
 .DEFAULT_GOAL := build
 PHONY: all build test push push-latest clean
 
-NAME	   := quay.io/ahelal/bender
+NAME	   := pobo380/bender
 VERSION    := $(shell cat VERSION)
 
 M = $(shell printf "\033[34;1m▶\033[0m")
